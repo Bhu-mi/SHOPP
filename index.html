@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="fonts">
+    <link rel="stylesheet" href="style.css">
+    <title>SHOPP</title>
+</head>
+
+<body>
+    <h1> SELECT YOUR CHOICE</h1>
+    <div class="tabs">
+        <button class="tab-button active" onclick="showTabContent('men', this)">Men</button>
+        <button class="tab-button" onclick="showTabContent('women', this)">Women</button>
+        <button class="tab-button" onclick="showTabContent('kids', this)">Kids</button>
+    </div>
+    <div class="tab-content" id="men"></div>
+    <div class="tab-content" id="women"></div>
+    <div class="tab-content" id="kids"></div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
